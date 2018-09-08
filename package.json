@@ -1,0 +1,28 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run lint && npm run test && npm run docs",
+    "test": "mocha -r chai/register-should",
+    "docs": "jsdoc -d docs . lib",
+    "lint": "jshint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-tempest/utils.git"
+  },
+  "author": "SILENT",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/silent-tempest/utils/issues"
+  },
+  "homepage": "https://github.com/silent-tempest/utils#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jsdoc": "^3.5.5",
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0"
+  }
+}
