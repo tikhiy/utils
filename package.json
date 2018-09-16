@@ -1,26 +1,27 @@
 {
-  "name": "utils",
+  "name": "my_utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "prepublish": "npm run lint && npm run test && npm run docs",
-    "test": "mocha -r chai/register-should",
-    "docs": "jsdoc -d docs . lib",
+    "test": "mocha ./test/**/*.test.js -r chai/register-should -r ./test/setup.js --use_strict",
+    "docs": "jsdoc -c .jsdoc.js",
     "lint": "jshint ."
   },
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/silent-tempest/utils.git"
+    "url": "git+https://github.com/silent-tempest/my_utils.git"
   },
   "author": "SILENT",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/silent-tempest/utils/issues"
+    "url": "https://github.com/silent-tempest/my_utils/issues"
   },
-  "homepage": "https://github.com/silent-tempest/utils#readme",
+  "homepage": "https://github.com/silent-tempest/my_utils#readme",
   "devDependencies": {
     "chai": "^4.1.2",
+    "chai-like": "^1.1.1",
     "jsdoc": "^3.5.5",
     "jshint": "^2.9.6",
     "mocha": "^5.2.0"

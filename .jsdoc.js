@@ -2,6 +2,11 @@
 
 module.exports = {
   source: {
-    exclude: [ 'node_modules', 'docs', 'dist', 'test', '.jsdoc.js' ]
+    exclude: [ '.temp', 'node_modules', 'docs', 'dist', 'test', '.jsdoc.js' ],
+    include: [ 'index.js', 'lib' ]
+  },
+
+  opts: {
+    destination: 'docs'
   }
 };

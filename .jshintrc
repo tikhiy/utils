@@ -1,5 +1,7 @@
 {
-  "esversion": 6,
+  "predef": [ "describe", "it", "Promise", "console" ],
+  "browserify": true,
+  "esversion": 3,
   "strict": "global",
   "shadow": true,
   "eqeqeq": true,
@@ -10,5 +12,5 @@
   "noarg": true,
   "curly": true,
   "immed": true,
-  "node": true
+  "proto": true
 }
