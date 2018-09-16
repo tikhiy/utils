@@ -1,3 +1,6 @@
 'use strict';
 
-require( 'chai' ).use( require( 'chai-like' ) );
+var chai     = require( 'chai' );
+var chaiLike = require( 'chai-like' );
+
+chai.use( chaiLike );
