@@ -11,14 +11,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/silent-tempest/my_utils.git"
+    "url": "git+https://github.com/silent-tempest/utils.git"
   },
   "author": "SILENT",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/silent-tempest/my_utils/issues"
+    "url": "https://github.com/silent-tempest/utils/issues"
   },
-  "homepage": "https://github.com/silent-tempest/my_utils#readme",
+  "homepage": "https://github.com/silent-tempest/utils#readme",
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-like": "^1.1.1",
